@@ -1,0 +1,163 @@
+/* Style for the gallery section */
+
+.container {
+
+    margin-top: 20px;
+
+}
+
+@font-face {
+    font-family: 'custom-font1';
+    src: url('../assets/fonts/hallington.otf');
+}
+
+#mainheading {
+    color: #9C27B0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    font-size: 43px;
+}
+
+.button {
+    display: block;
+    width: 103px;
+    height: 39px;
+    background: #e2491a;
+    padding: 5px;
+    position: absolute;
+    margin-top: 51%;
+    margin-bottom: 22%;
+    font-size: 21px;
+    left: 690px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.buttonregister {
+    display: block;
+    width: 103px;
+    height: 39px;
+    background: #475346;
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 10%;
+    margin-bottom: 22%;
+    padding: 5px;
+    font-size: 21px;
+    left: 672px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.navbar {
+    /* padding: -0.5rem 1rem; */
+    background-color: black;
+}
+
+
+.button:hover {
+    text-decoration: none;
+    color: rgb(49, 49, 16);
+}
+
+.buttonregister:hover {
+    text-decoration: none;
+    color: rgb(44, 44, 11);
+}
+
+.imagecustom {
+
+    height: 246px;
+    width: 286px;
+    transition: transform .5s;
+    border-radius: 4px;
+
+
+}
+
+
+body {
+
+    /* background-image: linear-gradient(to right, #EA8D8D, #A890FE); */
+
+    background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url(https://cdn.dribbble.com/users/3803989/screenshots/10859932/media/a8d48e3ce0d07453c3740f74b7d74ae9.png);
+  background-color: black;
+  
+
+
+}
+
+
+.imagecustom:hover {
+
+    transform: scale(1.1);
+
+
+}
+
+
+h2 {
+
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    top: -29px;
+
+}
+
+
+
+.card {
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    width: 288px;
+    background-color: coral;
+    color: brown;
+
+}
+
+
+
+.card-img-top {
+
+    max-height: 200px;
+
+}
+
+
+
+.card-text {
+    text-align: center;
+    font-family: 'AR One Sans',
+        sans-serif;
+    color: #730201;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* .icon-arrow {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: 1.4px solid transparent;
+   
+    text-align: center;
+    font-size: 1rem;
+   
+    margin-left: .5rem;
+    transition: .2s ease-in-out;
+} */
